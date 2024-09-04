@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">DEPOT</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Why us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Testimonials </a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-container">
+            <h1>TRANSPORTATIONS & <br> LOGISTICS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolorem eius eligendi esse quod?
+            </p>
+            <div class="track">
+                <input type="text" placeholder="Your tracking number">
+                <button>Track Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="vehicle">
+        <div class="vehicle-container">
+            <div class="vehicle-grid">
+                <div class="vehicle-items">
+                    <div class="vehicle-img">
+                        <img src="images/hero1.webp" alt="">
+                    </div>
+                    <div class="vehicle-text">
+                        <h2>TRUCK INSURANCE</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Beatae distinctio <br>
+                            laudantium nulla eos numquam incidunt!</p>
+                    </div>
+                </div>
+                <div class="vehicle-items">
+                    <div class="vehicle-img">
+                        <img src="images/hero2.webp" alt="">
+                    </div>
+                    <div class="vehicle-text">
+                        <h2>PLANE INSURANCE</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Beatae distinctio <br>
+                            laudantium nulla eos numquam incidunt!</p>
+                    </div>
+                </div>
+                <div class="vehicle-items">
+                    <div class="vehicle-img">
+                        <img src="images/depot_hero_1.jpg" alt="">
+                    </div>
+                    <div class="vehicle-text">
+                        <h2>SEA AND EAR FREIGHT</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Beatae distinctio <br>
+                            laudantium nulla eos numquam incidunt!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="service-container">
+            <div class="service-heading">
+                <h1>SERVICES</h1>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and <br> Consonantia, there
+                    live the blind texts.</p>
+            </div>
+            <div class="service-grid">
+                <div class="service-items">
+                    <div class="service-icon">
+                        <i class="fa fa-ship font-icon"></i>
+                    </div>
+                    <h2>SEA FREIGHT</h2>
+                    <p>A small river named Duden flows by <br> their place and supplies it with the <br> necessary
+                        regelialia.</p>
+                </div>
+                <div class="service-items">
+                    <div class="service-icon">
+                        <i class="fa fa-space-shuttle font-icon"></i>
+                    </div>
+                    <h2>AIR FREIGHT</h2>
+                    <p>A small river named Duden flows by <br> their place and supplies it with the <br> necessary
+                        regelialia.</p>
+                </div>
+                <div class="service-items">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-cart-shopping font-icon"></i>
+                    </div>
+                    <h2>PACKAGE FORWARDING</h2>
+                    <p>A small river named Duden flows by <br> their place and supplies it with the <br> necessary
+                        regelialia.</p>
+                </div>
+                <div class="service-items">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-truck font-icon"></i>
+                    </div>
+                    <h2>TRUCKING</h2>
+                    <p>A small river named Duden flows by <br> their place and supplies it with the <br> necessary
+                        regelialia.</p>
+                </div>
+                <div class="service-items">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-warehouse font-icon"></i>
+                    </div>
+                    <h2>WAREHOUSE</h2>
+                    <p>A small river named Duden flows by <br> their place and supplies it with the <br> necessary
+                        regelialia.</p>
+                </div>
+                <div class="service-items">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-city font-icon"></i>
+                    </div>
+                    <h2>DELIVERY</h2>
+                    <p>A small river named Duden flows by <br> their place and supplies it with the <br> necessary
+                        regelialia.</p>
+                </div>
+            </div>
+            <div class="service-slider">
+                <span class="service-slide" onclick="setCurrentSlide(1)"></span>
+                <span class="service-slide" onclick="setCurrentSlide(2)"></span>
+                <span class="service-slide" onclick="setCurrentSlide(3)"></span>
+                <span class="service-slide" onclick="setCurrentSlide(4)"></span>
+                <span class="service-slide" onclick="setCurrentSlide(5)"></span>
+                <span class="service-slide" onclick="setCurrentSlide(6)"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us">
+        <div class="about-container">
+            <div class="about-heading">
+                <h1>About us</h1>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and <br> Consonantia, there
+                    live the blind texts.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-imgVid">
+        <div class="imgVid-container">
+            <a href="https://vimeo.com/45830194">
+                <div class="icon-play">
+                    <div class="video-icon"><i class="fa-solid fa-play"></i></div>
+                </div>
+                <img src="images/about-img.webp">
+            </a>
+        </div>
+        <div class="counter">
+            <div class="lineHeight">
+                <p class="number"><span id="target-number1">0</span>+</p>
+                <span class="horizontal-rule"></span>
+                <h3 class="caption">Years in service</h3>
+            </div>
+            <div class="lineHeight">
+                <p class="number"><span id="target-number2">0</span>+</p>
+                <span class="horizontal-rule"></span>
+                <h3 class="caption">Employees</h3>
+            </div>
+            <div class="lineHeight">
+                <p class="number"><span id="target-number3">0</span>+</p>
+                <span class="horizontal-rule"></span>
+                <h3 class="caption">Covered Countries</h3>
+            </div>
+            <div class="lineHeight">
+                <p class="number"><span id="target-number4">0</span>+</p>
+                <span class="horizontal-rule"></span>
+                <h3 class="caption">Couriers</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="staff">
+        <div class="staff-container">
+            <div class="staff-heading">
+                <h4>Our Staff</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="staff-grid">
+                <div class="staff-items">
+                    <img src="images/staff1.webp" alt="" class="roundImg">
+                    <h2>MAX CARLSON</h2>
+                    <h5>CO-FOUNDER</h5>
+                    <p>Far far away, behind the word <br> mountains, far from the countries <br> Vokalia and
+                        Consonantia, there live the <br> blind texts.</p>
+                    <div class="staff-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="staff-items">
+                    <img src="images/staff2.webp" alt="" class="roundImg">
+                    <h2>MAX CARLSON</h2>
+                    <h5>CO-FOUNDER</h5>
+                    <p>Far far away, behind the word <br> mountains, far from the countries <br> Vokalia and
+                        Consonantia, there live the <br> blind texts.</p>
+                    <div class="staff-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="staff-items">
+                    <img src="images/staff3.webp" alt="" class="roundImg">
+                    <h2>MAX CARLSON</h2>
+                    <h5>CO-FOUNDER</h5>
+                    <p>Far far away, behind the word <br> mountains, far from the countries <br> Vokalia and
+                        Consonantia, there live the <br> blind texts.</p>
+                    <div class="staff-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="staff-dots">
+                <span class="staffDots" onclick="currentStaff(1)"></span>
+                <span class="staffDots" onclick="currentStaff(2)"></span>
+                <span class="staffDots" onclick="currentStaff(3)"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="price">
+        <div class="price-container">
+            <div class="price-text">
+                <h1>Pricing</h1>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, therelive the blind texts.</p>
+            </div>
+            <div class="price-grid">
+                <div class="price-items">
+                    <div class="pItem-text">
+                        <h2>BASIC</h2>
+                        <h1>$47 <span>/ year</span></h1>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Officia quaerat eaque neque</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Possimus aut consequuntur <br> incidunt</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Consectetur adipisicing elit</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Dolorum esse odio quas <br> architecto sint</p>
+                            </li>
+                        </ul>
+                        <div class="price-btn">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-items">
+                    <div class="pItem-text">
+                        <h2>PREMIUM</h2>
+                        <h1>$200 <span>/ year</span></h1>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Officia quaerat eaque neque</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Possimus aut consequuntur <br> incidunt</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Consectetur adipisicing elit</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Dolorum esse odio quas <br> architecto sint</p>
+                            </li>
+                        </ul>
+                        <div class="price-btn">
+                            <button style="background-color: blue;">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-items">
+                    <div class="pItem-text">
+                        <h2>PROFESSIONAL</h2>
+                        <h1>$750 <span>/ year</span></h1>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Officia quaerat eaque neque</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Possimus aut consequuntur <br> incidunt</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Lorem ipsum dolor sit amet</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Consectetur adipisicing elit</p>
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>
+                                <p>Dolorum esse odio quas <br> architecto sint</p>
+                            </li>
+                        </ul>
+                        <div class="price-btn">
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="questions">
+        <h1>Frequently Ask Questions</h1>
+        <div class="q-grid">
+            <div>
+                <ul>
+                    <li>
+                        <h2>Possimus aut consequuntur incidunt?</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </li>
+                    <li>
+                        <h2>Dolorum esse odio quas architecto sint?</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </li>
+                    <li>
+                        <h2>Possimus aut consequuntur incidunt?</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </li>
+                    <li>
+                        <h2>Dolorum esse odio quas architecto sint?</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <h2>Possimus aut consequuntur incidunt?</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </li>
+                    <li>
+                        <h2>Dolorum esse odio quas architecto sint?</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </li>
+                    <li>
+                        <h2>Possimus aut consequuntur incidunt?</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </li>
+                    <li>
+                        <h2>Dolorum esse odio quas architecto sint?</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="why-depot">
+        <div class="why-grid">
+            <div class="why-items">
+                <div class="why-heading">
+                    <h1>Why Depot</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam error aliquid, dolores animi obcaecati quisquam accusamus soluta?</p>
+                </div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i>
+                        <p>Cargo Express</p>
+                    </li>
+                    <li><i class="fa-solid fa-check"></i>
+                        <p>Secure Services</p>
+                    </li>
+                    <li><i class="fa-solid fa-check"></i>
+                        <p>Secure Warehousing</p>
+                    </li>
+                    <li><i class="fa-solid fa-check"></i>
+                        <p>Cost Savings</p>
+                    </li>
+                    <li><i class="fa-solid fa-check"></i>
+                        <p>Proven by great companies</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="why-items1">
+                <img src="images/about-img.webp" alt="" class="why-img">
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <div class="testimonial-container">
+            <div class="testimony-header">
+                <h1>Happy Client</h1>
+            </div>
+            <div class="testimony-grid">
+                <div class="testimony-items">
+                    <p style="height: 280px;">&ldquo;The Big Oxmox advised her not to do so, because there were
+                        thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+                        didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on
+                        the way.&rdquo;</p>
+                    <img src="images/staff1.webp" alt="">
+                </div>
+                <div class="testimony-items">
+                    <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost
+                        unorthographic life One day however a small line of blind text by the name of Lorem Ipsum
+                        decided to leave for the far World of Grammar.&rdquo;</p>
+                    <img src="images/staff2.webp" alt="">
+                </div>
+                <div class="testimony-items">
+                    <p style="height: 220px;">&ldquo;A small river named Duden flows by their place and supplies it with
+                        the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                        into your mouth.&rdquo;</p>
+                    <img src="images/staff3.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="articles">
+        <div class="article-container">
+            <h1>Articles</h1>
+            <div class="article-grid">
+                <div class="article-items">
+                    <a href="#" class="link-img">
+                        <img src="images/hero1.webp" alt="">
+                    </a>
+                    <p class="article-date">Apr 19, 2019</p>
+                    <a href="#" class="link-text1">
+                        <p>KNOWING THE DIFFERENCE IS KEY TO <br> EFFECTIVE LOGISTICS</p>
+                    </a>
+                    <p class="link-text2">Far far away, behind the word mountains, far from the countries Vokalia <br>
+                        and Consonantia, there live the blind texts</p>
+                    <a href="#" class="link-text3">Read More</a>
+                </div>
+                <div class="article-items">
+                    <a href="#" class="link-img">
+                        <img src="images/hero2.webp" alt="">
+                    </a>
+                    <p class="article-date">Apr 19, 2019</p>
+                    <a href="#" class="link-text1">
+                        <p>KNOWING THE DIFFERENCE IS KEY TO <br> EFFECTIVE LOGISTICS</p>
+                    </a>
+                    <p class="link-text2">Far far away, behind the word mountains, far from the countries Vokalia <br>
+                        and Consonantia, there live the blind texts</p>
+                    <a href="#" class="link-text3">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <form action="">
+            <div class="input-name">
+                <div>
+                    <input type="text" placeholder="First name">
+                </div>
+                <div>
+                    <input type="text" placeholder="Last name">
+                </div>
+            </div>
+            <div>
+                <input type="email" placeholder="Email">
+            </div>
+            <textarea placeholder="Write your message"></textarea>
+            <div>
+                <button>Send message</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h3>ABOUT US</h3>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Eum voluptate debitis <br> voluptatum et dolorum.</p>
+            </div>
+            <div>
+                <h3>FEATURES</h3>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>SUBSCRIBE TO NEWSLETTER</h3>
+                <input type="email" placeholder="Enter Email">
+                <button>Subscribe</button>
+                <h3 class="follow">FOLLOW US</h3>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="footer-text">Copyright ©2024 All rights reserved | This template is made with ❤️ by <a href="https://colorlib.com/">Colorlib</a></p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
